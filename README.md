@@ -21,6 +21,8 @@ consumer_secret = 'd7HY36s4pSh03HxjDg782HupUjmzdOOSDd98hd'
 access_token = '2543812-cpaIuwndjvbdjaDDp5izzndhsD7figa9gb'
 access_secret = '4hdyfnas7d988ddjf87sJdj3Dxn4d5CcNpwe'
 
+#this API key are not usable, u can have your own API by requesting on twitter developers.
+
     Go to the main() function and edit the search criteria. Namely, you should enter a search phrase, the maximum time limit for the script to run, and the date range for the search (relative to today). For example:
 
 search_phrase = '#COVID19' #OR SOMETHING ELSE
@@ -33,7 +35,7 @@ min_days_old, max_days_old = 1, 2 # search limits
 
     Open the terminal/command line to the file location and type:
 
-python twitter_search.py
+python twittersearch.py
 
 The script will run until all tweets within your search criteria have been found.
 
