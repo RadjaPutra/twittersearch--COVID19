@@ -16,22 +16,23 @@ Running the script
 
     Open the twitter_search.py file and then find the load_api() function (at the top) and add your consumer key, consumer secret, access token, and access secret. For example:
 
-consumer_key = '189YcjF4IUzF156RGNGNucDD8'
-consumer_secret = 'd7HY36s4pSh03HxjDg782HupUjmzdOOSDd98hd'
-access_token = '2543812-cpaIuwndjvbdjaDDp5izzndhsD7figa9gb'
-access_secret = '4hdyfnas7d988ddjf87sJdj3Dxn4d5CcNpwe'
+    consumer_key = '189YcjF4IUzF156RGNGNucDD8'
+    consumer_secret = 'd7HY36s4pSh03HxjDg782HupUjmzdOOSDd98hd'
+    access_token = '2543812-cpaIuwndjvbdjaDDp5izzndhsD7figa9gb'
+    access_secret = '4hdyfnas7d988ddjf87sJdj3Dxn4d5CcNpwe'
 
 #this API key are not usable, u can have your own API by requesting on twitter developers.
 
     Go to the main() function and edit the search criteria. Namely, you should enter a search phrase, the maximum time limit for the script to run, and the date range for the search (relative to today). For example:
+    search_phrase = '#COVID19' #OR SOMETHING ELSE
+    time_limit = 1.0 # runtime limit in hours
+    min_days_old, max_days_old = 1, 2 # search limits
 
-search_phrase = '#COVID19' #OR SOMETHING ELSE
-time_limit = 1.0 # runtime limit in hours
-min_days_old, max_days_old = 1, 2 # search limits
+    # e.g. min_days_old, max_days_old = 7, 8
+    # gives the current weekday from last week,
+    # min_days_old=0 will search from right now
 
-# e.g. min_days_old, max_days_old = 7, 8
-# gives the current weekday from last week,
-# min_days_old=0 will search from right now
+
 
     Open the terminal/command line to the file location and type:
 
