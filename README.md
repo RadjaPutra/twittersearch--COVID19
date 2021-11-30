@@ -23,7 +23,7 @@ Running the script
 
 #this API key are not usable, u can have your own API by requesting on twitter developers.
 
-    Go to the main() function and edit the search criteria. Namely, you should enter a search phrase, the maximum time limit for the script to run, and the date range for the search (relative to today). For example:
+       Go to the main() function and edit the search criteria. Namely, you should enter a search phrase, the maximum time limit for the script to run, and the date range for the search (relative to today). For example:
     search_phrase = '#COVID19' #OR SOMETHING ELSE
     time_limit = 1.0 # runtime limit in hours
     min_days_old, max_days_old = 1, 2 # search limits
@@ -34,7 +34,7 @@ Running the script
 
 
 
-    Open the terminal/command line to the file location and type:
+Open the terminal/command line to the file location and type:
 
 python twittersearch.py
 
