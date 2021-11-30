@@ -41,3 +41,13 @@ python twittersearch.py
 The script will run until all tweets within your search criteria have been found.
 
 I got my permission to using this soruce of code by Copyright (c) 2016 Alexander Galea.
+
+next step :
+
+    You will recieve a JSON file contains unstructured data.
+    
+i am using jupyter notebook for read JSON and add the data to dataframe.
+#open the twitter.ipynb
+
+and u can read anything using the code for example :
+    
